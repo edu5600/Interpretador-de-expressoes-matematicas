@@ -1,4 +1,4 @@
-# Interpretador-de-expressoes-matematicas
+# Interpretador-de-expressões-matemáticas
 Trabalho Final de LFA:
 
 ------------------------------------------------------------------------------------
