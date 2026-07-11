@@ -14,7 +14,7 @@ def analiseLexica(expressao) :
 
 def converterParaValor(tokens)  :
     for i in range(len(tokens)) :
-        if tokens[i][0].isdigit() or (tokens[i][0] == "-" and tokens[i][1].isdigit()) :
+        if tokens[i][0].isdigit() or (tokens[i][0] == "-" and len(tokens[i]) > 1) :
             if "." in tokens[i] :
                 tokens[i] = float(tokens[i])
             else :
